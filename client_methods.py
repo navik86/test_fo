@@ -2,13 +2,13 @@ def load_model(n_features, hidden_dim):
     pass
 
 
-def get_dataset(dataset_path: str, with_split: bool, test_size: float, shuffle: bool):
+def get_dataset(dataset_path, with_split, test_size, shuffle):
     pass
 
 
-def train(model: torch.nn.Module, train_set: torch.utils.data.Dataset, epochs, batch_size, lr, valid_set: torch.utils.data.Dataset = None):
+def train(model, train_set, epochs, batch_size, lr, valid_set):
     pass
 
 
-def test(model: torch.nn.Module, test_set: torch.utils.data.Dataset, return_output: bool):
+def test(model, test_set, return_output):
     pass
